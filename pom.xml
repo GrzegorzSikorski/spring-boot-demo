@@ -38,8 +38,19 @@
         </dependency>
 
         <dependency>
-        	<groupId>org.codehaus.groovy</groupId>
-        	<artifactId>groovy</artifactId>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.5.Final</version>
+        </dependency>
+        <dependency>
+            <artifactId>cassandra-all</artifactId>
+            <groupId>org.apache.cassandra</groupId>
+            <version>3.4</version>
         </dependency>
     </dependencies>
 
