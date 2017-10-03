@@ -4,7 +4,7 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>gs-spring-boot</artifactId>
-    <version>0.1.7</version>
+    <version>0.1.8-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,7 +13,7 @@
     </parent>
     <scm>
         <developerConnection>scm:git:https://github.com/GrzegorzSikorski/spring-boot-demo.git</developerConnection>
-      <tag>gs-spring-boot-0.1.7</tag>
+      <tag>gs-spring-boot-0.1.4</tag>
   </scm>
 
     <dependencies>
