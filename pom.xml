@@ -12,6 +12,10 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.7.RELEASE</version>
     </parent>
+    <scm>
+        <developerConnection>https://github.com/GrzegorzSikorski/spring-boot-demo.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
