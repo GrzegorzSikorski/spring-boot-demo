@@ -52,6 +52,26 @@
             <groupId>org.apache.cassandra</groupId>
             <version>3.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-servlet</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>xalan</groupId>
+        	<artifactId>xalan</artifactId>
+        	<version>2.7.2</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.drools</groupId>
+        	<artifactId>drools-core</artifactId>
+        	<version>5.5.0.Final</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.apache.lucene</groupId>
+        	<artifactId>lucene-core</artifactId>
+        	<version>5.5.4</version>
+        </dependency>
     </dependencies>
 
     <properties>
