@@ -14,7 +14,6 @@
     </parent>
     <scm>
         <developerConnection>scm:git:https://github.com/GrzegorzSikorski/spring-boot-demo.git</developerConnection>
-        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
