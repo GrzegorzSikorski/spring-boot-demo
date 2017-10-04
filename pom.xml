@@ -18,15 +18,15 @@
   
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>nexus2</id>
             <name>cc-services nexus repository by telekom</name>
-            <url>http://10.130.7.15:8081/repository/maven-releases/</url>
+            <url>http://10.130.7.15:8081/repository/maven-public/</url>
         </repository>
 
         <snapshotRepository>
-            <id>nexus-s</id>
+            <id>nexus2-s</id>
             <name>cc-services nexus repository by telekom</name>
-            <url>http://10.130.7.15:8081/repository/maven-snapshots/</url>
+            <url>http://10.130.7.15:8081/repository/maven-public/</url>
         </snapshotRepository>
     </distributionManagement>
 
