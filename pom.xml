@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework</groupId>
-    <artifactId>gs-spring-boot</artifactId>
-    <version>0.1.11-SNAPSHOT</version>
+    <groupId>de.tsystems.dvfa.tmp</groupId>
+    <artifactId>spring-boot-test-app</artifactId>
+    <version>0.2.0-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,8 +13,21 @@
     </parent>
     <scm>
         <developerConnection>scm:git:https://github.com/GrzegorzSikorski/spring-boot-demo.git</developerConnection>
-      <tag>gs-spring-boot-0.1.10</tag>
-  </scm>
+    </scm>
+  
+    <distributionManagement>
+          <repository>
+              <id>cc-services-releases</id>
+              <name>cc-services nexus repository by telekom</name>
+              <url>https://connected-car-wbench.wesp.telekom.net/nexus/content/repositories/cc-services-releases</url>
+          </repository>
+
+          <snapshotRepository>
+              <id>cc-services-snapshots</id>
+              <name>cc-services nexus repository by telekom</name>
+              <url>https://connected-car-wbench.wesp.telekom.net/nexus/content/repositories/cc-services-snapshots</url>
+          </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
