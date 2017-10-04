@@ -18,13 +18,13 @@
   
     <distributionManagement>
         <repository>
-            <id>cc-services-releases</id>
+            <id>nexus</id>
             <name>cc-services nexus repository by telekom</name>
             <url>http://connected-car-wbench.psst.t-online.corp/nexus/content/repositories/cc-services-releases</url>
         </repository>
 
         <snapshotRepository>
-            <id>cc-services-snapshots</id>
+            <id>nexus-s</id>
             <name>cc-services nexus repository by telekom</name>
             <url>http://connected-car-wbench.psst.t-online.corp/nexus/content/repositories/cc-services-snapshots</url>
         </snapshotRepository>
