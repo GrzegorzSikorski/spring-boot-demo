@@ -4,7 +4,7 @@
 
     <groupId>de.tsystems.dvfa.tmp</groupId>
     <artifactId>spring-boot-test-app</artifactId>
-    <version>0.2.3</version>
+    <version>0.2.3-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
