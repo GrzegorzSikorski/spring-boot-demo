@@ -16,19 +16,19 @@
       <tag>spring-boot-test-app-0.2.3</tag>
   </scm>
   
-    <distributionManagement>
-        <repository>
-            <id>nexus2</id>
-            <name>cc-services nexus repository by telekom</name>
-            <url>http://10.130.7.15:8081/repository/maven-releases/</url>
-        </repository>
+<distributionManagement>
+                <repository>
+                    <id>cc-services-releases</id>
+                    <name>cc-services nexus repository by telekom</name>
+                    <url>https://connected-car-wbench.wesp.telekom.net/nexus/content/repositories/cc-services-releases</url>
+                </repository>
 
-        <snapshotRepository>
-            <id>nexus2-s</id>
-            <name>cc-services nexus repository by telekom</name>
-            <url>http://10.130.7.15:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+                <snapshotRepository>
+                    <id>cc-services-snapshots</id>
+                    <name>cc-services nexus repository by telekom</name>
+                    <url>https://connected-car-wbench.wesp.telekom.net/nexus/content/repositories/cc-services-snapshots</url>
+                </snapshotRepository>
+            </distributionManagement>
 
     <dependencies>
         <dependency>
